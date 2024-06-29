@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- General Style -->
+    <link rel="stylesheet" href="./style/style.css">
+
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="container" class="container">
+        <div id="header" class="header">
+            <h1 class="title">Set up your account</h1>
+            <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry.</p>
+            <div class="forms">
+                <form action="" id="form" class="form">
+                    <input type="text" placeholder="Name" id="name">
+                    <input type="text" placeholder="SurName" id="surname">
+                    <input type="text" placeholder="Mobile Number" id="number">
+                    <input type="text" placeholder="Email Address" id="email">
+                    <input type="text" placeholder="Password" id="password">
+                    <input type="text" placeholder="Confirm Password" id="confirm">
+                </form>
+            </div>
+            <div id="user-data" class="user-data"></div>
+            <div id="checkbox" class="checkbox">
+                <input class="icon1" type="checkbox">
+                <p class="code">Confirm Password</p>
+            </div>
+            <button id="btn" class="btn">Continue</button>
+            <hr style="height:2px;border-width:0;color:rgba(61, 61, 61, 1);background-color:rgba(61, 61, 61, 1); margin-bottom: 40px;">
+            <div id="footer" class="footer">
+                <p class="last-text">Already have an account ?</p>
+                <a href="#">Sign in</a>
+                <img id="img" class="img" src="./img/icon.svg" alt="">
+            </div>
+        </div>
+    </div>
 
     <script src="./js/index.js"></script>
 </body>
